@@ -1,0 +1,8 @@
+{"time":"2024-10-23T12:32:48.997916929+03:00","level":"INFO","msg":"using version","core version":"0.18.5"}
+{"time":"2024-10-23T12:32:48.99798945+03:00","level":"INFO","msg":"created symlink","path":"/home/user/georgy/Zett/zett/wandb/run-20241023_123248-z2nfqaqi/logs/debug-core.log"}
+{"time":"2024-10-23T12:32:49.593606749+03:00","level":"INFO","msg":"created new stream","id":"z2nfqaqi"}
+{"time":"2024-10-23T12:32:49.593695075+03:00","level":"INFO","msg":"stream: started","id":"z2nfqaqi"}
+{"time":"2024-10-23T12:32:49.593858059+03:00","level":"INFO","msg":"sender: started","stream_id":"z2nfqaqi"}
+{"time":"2024-10-23T12:32:49.593764634+03:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"z2nfqaqi"}}
+{"time":"2024-10-23T12:32:49.593842196+03:00","level":"INFO","msg":"handler: started","stream_id":{"value":"z2nfqaqi"}}
+{"time":"2024-10-23T12:32:50.684119457+03:00","level":"INFO","msg":"Starting system monitor"}

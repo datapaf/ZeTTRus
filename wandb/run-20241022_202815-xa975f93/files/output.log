@@ -1,0 +1,10 @@
+  0%|                                                                                                                                                                                    | 0/200000 [02:23<?, ?it/s]
+Traceback (most recent call last):
+  File "/home/user/georgy/Zett/zett/train.py", line 1606, in <module>
+    main()
+  File "/home/user/georgy/Zett/zett/train.py", line 1507, in main
+    state, train_metric = current_step_fn(state, batch)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+jaxlib.xla_extension.XlaRuntimeError: RESOURCE_EXHAUSTED: Out of memory while trying to allocate 117440512 bytes.
+--------------------
+For simplicity, JAX has removed its internal frames from the traceback of the following exception. Set JAX_TRACEBACK_FILTERING=off to include these.

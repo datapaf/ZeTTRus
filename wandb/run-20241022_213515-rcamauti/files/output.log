@@ -1,0 +1,12 @@
+Here it is...
+  4%|███████▉                                                                                                                                                                       | 9/200 [02:33<54:19, 17.07s/it]
+Traceback (most recent call last):
+  File "/home/user/georgy/Zett/zett/train.py", line 1610, in <module>
+    main()
+  File "/home/user/georgy/Zett/zett/train.py", line 1593, in main
+    eval_metrics = eval_loop()
+                   ^^^^^^^^^^^
+  File "/home/user/georgy/Zett/zett/train.py", line 1345, in eval_loop
+    for i, name in enumerate(data_args.extra_valid_tokenizer_names)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'NoneType' object is not iterable

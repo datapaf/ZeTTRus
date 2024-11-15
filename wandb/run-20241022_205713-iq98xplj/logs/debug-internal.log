@@ -1,0 +1,20 @@
+{"time":"2024-10-22T20:57:13.582149376+03:00","level":"INFO","msg":"using version","core version":"0.18.5"}
+{"time":"2024-10-22T20:57:13.582201623+03:00","level":"INFO","msg":"created symlink","path":"/home/user/georgy/Zett/zett/wandb/run-20241022_205713-iq98xplj/logs/debug-core.log"}
+{"time":"2024-10-22T20:57:14.082735197+03:00","level":"INFO","msg":"created new stream","id":"iq98xplj"}
+{"time":"2024-10-22T20:57:14.082868234+03:00","level":"INFO","msg":"stream: started","id":"iq98xplj"}
+{"time":"2024-10-22T20:57:14.083147404+03:00","level":"INFO","msg":"sender: started","stream_id":"iq98xplj"}
+{"time":"2024-10-22T20:57:14.083106843+03:00","level":"INFO","msg":"handler: started","stream_id":{"value":"iq98xplj"}}
+{"time":"2024-10-22T20:57:14.083006015+03:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"iq98xplj"}}
+{"time":"2024-10-22T20:57:14.882761003+03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-22T20:57:17.126537001+03:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/datapaf/zett/iq98xplj/file_stream"}
+{"time":"2024-10-22T20:57:19.866739043+03:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/datapaf/zett/iq98xplj/file_stream"}
+{"time":"2024-10-22T20:57:24.781570586+03:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/datapaf/zett/iq98xplj/file_stream"}
+{"time":"2024-10-22T20:57:34.815574869+03:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/datapaf/zett/iq98xplj/file_stream"}
+{"time":"2024-10-22T20:59:29.68573748+03:00","level":"INFO","msg":"stream: closing","id":"iq98xplj"}
+{"time":"2024-10-22T20:59:29.685806715+03:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-22T20:59:29.687294647+03:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-22T20:59:30.572650208+03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-22T20:59:30.861671127+03:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"iq98xplj"}}
+{"time":"2024-10-22T20:59:30.861805284+03:00","level":"INFO","msg":"sender: closed","stream_id":"iq98xplj"}
+{"time":"2024-10-22T20:59:30.861786546+03:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"iq98xplj"}}
+{"time":"2024-10-22T20:59:30.86196984+03:00","level":"INFO","msg":"stream: closed","id":"iq98xplj"}

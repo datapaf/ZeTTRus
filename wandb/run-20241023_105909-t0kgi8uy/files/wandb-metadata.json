@@ -1,0 +1,64 @@
+{
+  "os":  "Linux-5.15.0-113-generic-x86_64-with-glibc2.31",
+  "python":  "3.11.10",
+  "startedAt":  "2024-10-23T07:59:09.189137Z",
+  "args":  [
+    "configs/zeroshot/llama3-8b_en+ru.json"
+  ],
+  "program":  "/home/user/georgy/Zett/zett/train.py",
+  "codePath":  "train.py",
+  "git":  {
+    "remote":  "https://github.com/bminixhofer/zett.git",
+    "commit":  "41a68408f1f2bf1ddcbc49da3b977d622547eaf5"
+  },
+  "email":  "georgyandryuschenko@gmail.com",
+  "root":  "/home/user/georgy/Zett/zett",
+  "host":  "pishhost-g01",
+  "username":  "root",
+  "executable":  "/root/miniconda3/envs/zett/bin/python3",
+  "codePathLocal":  "train.py",
+  "cpu_count":  40,
+  "cpu_count_logical":  80,
+  "gpu":  "NVIDIA A100 80GB PCIe",
+  "gpu_count":  4,
+  "disk":  {
+    "/":  {
+      "total":  "11427508527104",
+      "used":  "10768585105408"
+    }
+  },
+  "memory":  {
+    "total":  "270060507136"
+  },
+  "cpu":  {
+    "count":  40,
+    "countLogical":  80
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "NVIDIA A100 80GB PCIe",
+      "memoryTotal":  "85899345920",
+      "cudaCores":  6912,
+      "architecture":  "Ampere"
+    },
+    {
+      "name":  "NVIDIA A100 80GB PCIe",
+      "memoryTotal":  "85899345920",
+      "cudaCores":  6912,
+      "architecture":  "Ampere"
+    },
+    {
+      "name":  "NVIDIA A100 80GB PCIe",
+      "memoryTotal":  "85899345920",
+      "cudaCores":  6912,
+      "architecture":  "Ampere"
+    },
+    {
+      "name":  "NVIDIA A100 80GB PCIe",
+      "memoryTotal":  "85899345920",
+      "cudaCores":  6912,
+      "architecture":  "Ampere"
+    }
+  ],
+  "cudaVersion":  "12.4"
+}

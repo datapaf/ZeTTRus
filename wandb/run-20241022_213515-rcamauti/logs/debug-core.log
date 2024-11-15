@@ -1,0 +1,14 @@
+{"time":"2024-10-22T21:35:14.582414483+03:00","level":"INFO","msg":"started logging, with flags","port-filename":"/tmp/tmp9dc8qy_0/port-840371.txt","pid":840371,"debug":false,"disable-analytics":false}
+{"time":"2024-10-22T21:35:14.582510072+03:00","level":"INFO","msg":"FeatureState","shutdownOnParentExitEnabled":false}
+{"time":"2024-10-22T21:35:14.584112149+03:00","level":"INFO","msg":"Will exit if parent process dies.","ppid":840371}
+{"time":"2024-10-22T21:35:14.584076657+03:00","level":"INFO","msg":"server is running","addr":{"IP":"127.0.0.1","Port":43159,"Zone":""}}
+{"time":"2024-10-22T21:35:14.784779482+03:00","level":"INFO","msg":"connection: ManageConnectionData: new connection created","id":"127.0.0.1:46012"}
+{"time":"2024-10-22T21:35:15.993956442+03:00","level":"INFO","msg":"handleInformInit: received","streamId":"rcamauti","id":"127.0.0.1:46012"}
+{"time":"2024-10-22T21:35:16.694872167+03:00","level":"INFO","msg":"handleInformInit: stream started","streamId":"rcamauti","id":"127.0.0.1:46012"}
+{"time":"2024-10-22T21:38:35.893815676+03:00","level":"INFO","msg":"handleInformTeardown: server teardown initiated","id":"127.0.0.1:46012"}
+{"time":"2024-10-22T21:38:35.893949626+03:00","level":"INFO","msg":"server is shutting down"}
+{"time":"2024-10-22T21:38:35.893936475+03:00","level":"INFO","msg":"connection: Close: initiating connection closure","id":"127.0.0.1:46012"}
+{"time":"2024-10-22T21:38:35.89412899+03:00","level":"INFO","msg":"connection: Close: connection successfully closed","id":"127.0.0.1:46012"}
+{"time":"2024-10-22T21:38:41.506207543+03:00","level":"INFO","msg":"handleInformTeardown: server shutdown complete","id":"127.0.0.1:46012"}
+{"time":"2024-10-22T21:38:41.506246932+03:00","level":"INFO","msg":"connection: ManageConnectionData: connection closed","id":"127.0.0.1:46012"}
+{"time":"2024-10-22T21:38:41.506267473+03:00","level":"INFO","msg":"server is closed"}

@@ -1,0 +1,18 @@
+Here it is...
+  4%|███████                                                                                                                                                      | 9/200 [02:04<14:34,  4.58s/it]/root/miniconda3/envs/zett/lib/python3.11/multiprocessing/popen_fork.py:66: RuntimeWarning: os.fork() was called. os.fork() is incompatible with multithreaded code, and JAX is multithreaded, so this will likely lead to a deadlock.
+  self.pid = os.fork()                                                                                                                                                    | 0/250 [00:00<?, ?it/s]
+Evaluating...: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 250/250 [07:41<00:00,  1.85s/it]
+/home/user/georgy/Zett/zett/train.py:1395: DeprecationWarning: jax.tree_map is deprecated: use jax.tree.map (jax v0.4.25 or newer) or jax.tree_util.tree_map (any JAX version).1<00:00,  1.15s/it]
+  raw_eval_metrics = jax.tree_map(
+
+
+
+
+
+
+
+
+
+
+{'eval/main_ru_en_bpb': np.float32(1.4522213), 'eval/main_ru_en_loss': np.float32(10.486112), 'eval/main_ru_en_avg_byte_length': np.float64(3.866914939057823), 'eval/main_ru_en_std_byte_length': np.float64(1.049760703768664), 'eval/main_ru_en_unk_ratio': np.float64(0.0)}
+  5%|███████▋                                                                                                                                                 | 10/200 [09:47<7:24:55, 140.50s/it]

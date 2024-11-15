@@ -1,0 +1,12 @@
+h5py
+transformers
+accelerate
+wandb
+optax
+flax
+maturin
+pandas
+pyahocorasick
+matplotlib
+scikit-learn
+datasets

@@ -1,0 +1,16 @@
+{"time":"2024-10-23T17:34:58.190530455+03:00","level":"INFO","msg":"using version","core version":"0.18.5"}
+{"time":"2024-10-23T17:34:58.190573666+03:00","level":"INFO","msg":"created symlink","path":"/home/user/georgy/Zett/zett/wandb/run-20241023_173458-1f1g4408/logs/debug-core.log"}
+{"time":"2024-10-23T17:34:58.587097181+03:00","level":"INFO","msg":"created new stream","id":"1f1g4408"}
+{"time":"2024-10-23T17:34:58.587170706+03:00","level":"INFO","msg":"stream: started","id":"1f1g4408"}
+{"time":"2024-10-23T17:34:58.587306527+03:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"1f1g4408"}}
+{"time":"2024-10-23T17:34:58.587405032+03:00","level":"INFO","msg":"handler: started","stream_id":{"value":"1f1g4408"}}
+{"time":"2024-10-23T17:34:58.587497252+03:00","level":"INFO","msg":"sender: started","stream_id":"1f1g4408"}
+{"time":"2024-10-23T17:34:59.182440609+03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-23T17:40:46.425807122+03:00","level":"INFO","msg":"stream: closing","id":"1f1g4408"}
+{"time":"2024-10-23T17:40:46.425881721+03:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-23T17:40:46.427232394+03:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-23T17:40:47.368594193+03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-23T17:40:47.678525929+03:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"1f1g4408"}}
+{"time":"2024-10-23T17:40:47.678593937+03:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"1f1g4408"}}
+{"time":"2024-10-23T17:40:47.678605284+03:00","level":"INFO","msg":"sender: closed","stream_id":"1f1g4408"}
+{"time":"2024-10-23T17:40:47.678750341+03:00","level":"INFO","msg":"stream: closed","id":"1f1g4408"}

@@ -1,0 +1,11 @@
+Here it is...
+  5%|███████▋                                                                                                                                                  | 10/200 [06:12<1:57:54, 37.24s/it]
+Traceback (most recent call last):
+  File "/home/user/georgy/Zett/zett/train.py", line 1610, in <module>
+    main()
+  File "/home/user/georgy/Zett/zett/train.py", line 1511, in main
+    state, train_metric = current_step_fn(state, batch)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+jaxlib.xla_extension.XlaRuntimeError: RESOURCE_EXHAUSTED: Out of memory while trying to allocate 86433503376 bytes.: while running replica 0 and partition 0 of a replicated computation (other replicas may have failed as well).
+--------------------
+For simplicity, JAX has removed its internal frames from the traceback of the following exception. Set JAX_TRACEBACK_FILTERING=off to include these.

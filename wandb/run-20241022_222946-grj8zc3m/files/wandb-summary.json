@@ -1,0 +1,1 @@
+{"_step":10,"_wandb":{"runtime":580},"eval/main_ru_en_unk_ratio":0,"eval/main_ru_en_bpb":1.3585416078567505,"_timestamp":1.7296257970932012e+09,"_runtime":580.440876795,"eval/main_ru_en_avg_byte_length":4.025038056180673,"eval/main_ru_en_std_byte_length":0.8832955684088051,"eval/main_ru_en_loss":10.491260528564453}

@@ -1,0 +1,138 @@
+Here it is...
+  0%|▍                                                                                                                                                                      | 499/200000 [06:04<23:17:19,  2.38it/s]/home/user/georgy/Zett/zett/train.py:1520: DeprecationWarning: jax.tree_map is deprecated: use jax.tree.map (jax v0.4.25 or newer) or jax.tree_util.tree_map (any JAX version).
+  raw_metrics = jax.tree_map(
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{'train/identity_loss': np.float32(0.5661981), 'train/learning_rate': np.float32(7.485e-06), 'train/time': 408.0373706817627}
+  0%|▊                                                                                                                                                                      | 999/200000 [09:35<22:57:57,  2.41it/s]/home/user/georgy/Zett/zett/train.py:1520: DeprecationWarning: jax.tree_map is deprecated: use jax.tree.map (jax v0.4.25 or newer) or jax.tree_util.tree_map (any JAX version).
+  raw_metrics = jax.tree_map(
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{'train/identity_loss': np.float32(0.43663523), 'train/learning_rate': np.float32(2.2485e-05), 'train/time': 618.1642940044403}
+  1%|█▏                                                                                                                                                                    | 1499/200000 [13:03<23:02:08,  2.39it/s]/home/user/georgy/Zett/zett/train.py:1520: DeprecationWarning: jax.tree_map is deprecated: use jax.tree.map (jax v0.4.25 or newer) or jax.tree_util.tree_map (any JAX version).
+  raw_metrics = jax.tree_map(
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{'train/identity_loss': np.float32(0.3843834), 'train/learning_rate': np.float32(3.7485e-05), 'train/time': 827.1591675281525}
+  1%|█▌                                                                                                                                                                    | 1811/200000 [15:14<27:47:36,  1.98it/s]
+Traceback (most recent call last):
+  File "/home/user/georgy/Zett/zett/train.py", line 1610, in <module>
+    main()
+  File "/home/user/georgy/Zett/zett/train.py", line 1464, in main
+    diter_index = jax.random.choice(
+                  ^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/envs/zett/lib/python3.11/site-packages/jax/_src/random.py", line 654, in choice
+    p_arr, = promote_dtypes_inexact(p)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/envs/zett/lib/python3.11/site-packages/jax/_src/numpy/util.py", line 264, in promote_dtypes_inexact
+    return [lax._convert_element_type(x, to_dtype_inexact, weak_type)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/envs/zett/lib/python3.11/site-packages/jax/_src/numpy/util.py", line 264, in <listcomp>
+    return [lax._convert_element_type(x, to_dtype_inexact, weak_type)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/envs/zett/lib/python3.11/site-packages/jax/_src/lax/lax.py", line 585, in _convert_element_type
+    return convert_element_type_p.bind(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/envs/zett/lib/python3.11/site-packages/jax/_src/lax/lax.py", line 2865, in _convert_element_type_bind
+    operand = core.Primitive.bind(convert_element_type_p, operand,
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/envs/zett/lib/python3.11/site-packages/jax/_src/core.py", line 438, in bind
+    return self.bind_with_trace(find_top_trace(args), args, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/envs/zett/lib/python3.11/site-packages/jax/_src/core.py", line 442, in bind_with_trace
+    out = trace.process_primitive(self, map(trace.full_raise, args), params)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/envs/zett/lib/python3.11/site-packages/jax/_src/core.py", line 948, in process_primitive
+    return primitive.impl(*tracers, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/envs/zett/lib/python3.11/site-packages/jax/_src/dispatch.py", line 90, in apply_primitive
+    outs = fun(*args)
+           ^^^^^^^^^^
+KeyboardInterrupt

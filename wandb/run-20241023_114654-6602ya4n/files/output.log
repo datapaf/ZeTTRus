@@ -1,0 +1,27 @@
+Here it is...
+  4%|███████                                                                                                                                                      | 9/200 [02:13<15:39,  4.92s/it]/root/miniconda3/envs/zett/lib/python3.11/multiprocessing/popen_fork.py:66: RuntimeWarning: os.fork() was called. os.fork() is incompatible with multithreaded code, and JAX is multithreaded, so this will likely lead to a deadlock.
+  self.pid = os.fork()                                                                                                                                                    | 0/250 [00:00<?, ?it/s]
+Evaluating...: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 250/250 [07:38<00:00,  1.83s/it]
+/home/user/georgy/Zett/zett/train.py:1395: DeprecationWarning: jax.tree_map is deprecated: use jax.tree.map (jax v0.4.25 or newer) or jax.tree_util.tree_map (any JAX version).8<00:00,  1.14s/it]
+  raw_eval_metrics = jax.tree_map(
+
+
+
+
+
+
+
+
+
+
+{'eval/main_ru_en_bpb': np.float32(1.4472283), 'eval/main_ru_en_loss': np.float32(10.488225), 'eval/main_ru_en_avg_byte_length': np.float64(3.8741159521652717), 'eval/main_ru_en_std_byte_length': np.float64(1.0455011845445512), 'eval/main_ru_en_unk_ratio': np.float64(0.0)}
+  5%|███████▋                                                                                                                                                  | 10/200 [12:50<4:03:51, 77.01s/it]
+Traceback (most recent call last):
+  File "/home/user/georgy/Zett/zett/train.py", line 1610, in <module>
+    main()
+  File "/home/user/georgy/Zett/zett/train.py", line 1511, in main
+    state, train_metric = current_step_fn(state, batch)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+jaxlib.xla_extension.XlaRuntimeError: RESOURCE_EXHAUSTED: Out of memory while trying to allocate 90841524496 bytes.: while running replica 0 and partition 0 of a replicated computation (other replicas may have failed as well).
+--------------------
+For simplicity, JAX has removed its internal frames from the traceback of the following exception. Set JAX_TRACEBACK_FILTERING=off to include these.

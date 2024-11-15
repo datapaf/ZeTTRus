@@ -1,0 +1,236 @@
+_wandb:
+    value:
+        cli_version: 0.18.5
+        m: []
+        python_version: 3.11.10
+        t:
+            "1":
+                - 1
+                - 5
+                - 11
+                - 12
+                - 45
+                - 49
+                - 51
+                - 53
+                - 55
+                - 71
+            "2":
+                - 1
+                - 5
+                - 11
+                - 12
+                - 45
+                - 49
+                - 51
+                - 53
+                - 55
+                - 71
+            "3":
+                - 13
+                - 23
+                - 55
+            "4": 3.11.10
+            "5": 0.18.5
+            "6": 4.45.2
+            "8":
+                - 5
+            "12": 0.18.5
+            "13": linux-x86_64
+adam_beta1:
+    value: 0.9
+adam_beta2:
+    value: 0.95
+adam_epsilon:
+    value: 1e-08
+add_prefix_space:
+    value: true
+add_target_priors_to_bias:
+    value: false
+apply_lexical_loss_to_init:
+    value: false
+backbone_training:
+    value: "no"
+block_size:
+    value: 128
+config_name:
+    value: null
+dataloader_num_workers:
+    value: 64
+debug:
+    value: false
+do_cost_analysis:
+    value: false
+do_sequence_packing:
+    value: true
+do_tokenizer_sampling:
+    value: true
+do_train:
+    value: true
+dtype:
+    value: bfloat16
+eval_at_step_zero:
+    value: false
+eval_batch_size:
+    value: 1
+eval_steps:
+    value: 10000
+extra_lang_codes:
+    value:
+        - ru_en
+extra_valid_files:
+    value:
+        - ./data/valid/ru_en.parquet
+extra_valid_tokenizer_names:
+    value: null
+gradient_accumulation_steps:
+    value: 1
+hn_add_inter_token_attention:
+    value: false
+hn_concat_last_hidden_state:
+    value: false
+hn_embed_lang_id:
+    value: false
+hn_embed_target_priors:
+    value: false
+hn_embed_using_source_embeddings:
+    value: true
+hn_hidden_size:
+    value: 4096
+hn_inter_token_attention_bias_by_priors:
+    value: true
+hn_inter_token_attention_bias_scaler:
+    value: 1
+hn_intermediate_size:
+    value: 8192
+hn_language_adapter_bottleneck_dim:
+    value: 0
+hn_model_name_or_path:
+    value: roberta-base
+hn_model_type:
+    value: roberta
+hn_n_inter_token_blocks:
+    value: 16
+hn_n_layers:
+    value: 3
+hn_num_attention_heads:
+    value: 16
+hn_predict_bias:
+    value: true
+hn_rescale_embeddings:
+    value: true
+hn_single_head:
+    value: false
+hn_surface_maxlen:
+    value: 7
+identity_n_subsample:
+    value: 16384
+identity_steps:
+    value: 10000
+init_from_params:
+    value: null
+langs:
+    value:
+        - ru_en
+language_sampling_alpha:
+    value: 0.3
+learnable_bias:
+    value: false
+learning_rate:
+    value:
+        - 0.0003
+        - 6e-05
+learning_rate_alpha:
+    value: 0.1
+lexical_loss_kind:
+    value: mse
+lexical_loss_weight:
+    value: 0.5
+logging_steps:
+    value: 500
+loss:
+    value: clm
+max_grad_norm:
+    value: 0.1
+mix_languages:
+    value: false
+model_name_or_path:
+    value: meta-llama/Meta-Llama-3-8B
+n_embd:
+    value: 4096
+n_langs:
+    value: 1
+n_pools:
+    value: 1
+n_token_subsample:
+    value: null
+n_valid_subsample:
+    value: 4000
+output_dir:
+    value: output_dir
+pad_to_multiple_of:
+    value: 128
+random_learning_rate:
+    value: null
+random_warmup_steps:
+    value: 0
+reinit_projectors:
+    value: false
+resume_from_checkpoint:
+    value: null
+resume_from_checkpoint_reset_steps:
+    value: false
+revision:
+    value: refs/pr/129
+run_backbone_in_training_mode:
+    value: false
+sample_text_span:
+    value: true
+save_state:
+    value: true
+save_steps:
+    value: 10000
+seed:
+    value: 42
+steps:
+    value: 200000
+subsample_mode:
+    value: random
+target_tokenizer_name:
+    value: null
+tokenizer_batch_size:
+    value: 2048
+tokenizer_name:
+    value: null
+tokenizer_noise_mean:
+    value: 1e-05
+tokenizer_noise_std:
+    value: 4
+tokenizer_sample_max:
+    value: 32768
+tokenizer_sample_mean:
+    value: 32768
+tokenizer_sample_min:
+    value: 16384
+tokenizer_sample_reweigh_temperature:
+    value: .inf
+tokenizer_sample_std:
+    value: 0
+train_batch_size:
+    value: 1
+train_directory:
+    value: ./data/train
+use_adafactor:
+    value: false
+use_passthrough_hypernet:
+    value: false
+use_unigram_bias:
+    value: true
+valid_directory:
+    value: ./data/valid
+warmup_steps:
+    value:
+        - 10000
+        - 20000
+weight_decay:
+    value: 0.01

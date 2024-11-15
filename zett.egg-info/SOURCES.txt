@@ -1,0 +1,11 @@
+README.md
+setup.py
+zett/collator.py
+zett/compute_prior.py
+zett/dataset.py
+zett/tokenizer_converters.py
+zett/utils.py
+zett.egg-info/PKG-INFO
+zett.egg-info/SOURCES.txt
+zett.egg-info/dependency_links.txt
+zett.egg-info/top_level.txt
